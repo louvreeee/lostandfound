@@ -38,7 +38,7 @@ const ItemForm = ({ navigation }) => {
   const selectImage = async () => {
     let pickerResult = await ImagePicker.launchImageLibraryAsync({
       allowsEditing: true,
-      aspect: [4, 3],
+      aspect: [6, 6],
       quality: 1,
     });
 

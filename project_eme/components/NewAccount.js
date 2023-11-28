@@ -1,6 +1,8 @@
 import React from 'react';
 import { StyleSheet, Image, Text, View, TouchableOpacity, Dimensions } from 'react-native';
 
+
+
 export default function NewAccount({ navigation }) {
 return (
     <View style={styles.container}>
